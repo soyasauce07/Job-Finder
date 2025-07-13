@@ -32,3 +32,29 @@ Job Finder is a modern Java-based desktop application that scrapes internship li
 ```bash
 git clone https://github.com/soyasauce07/job-finder.git
 cd job-finder
+```
+
+### Run the Project
+
+Use Git Bash, VS Code terminal, or any CLI that supports Maven commands:
+
+```bash
+mvn compile
+mvn exec:java -Dexec.mainClass="com.jobaggregator.Main"
+```
+
+### Project Structure
+
+job-finder/
+├── src/
+│   └── main/
+│       └── java/
+│           └── com/
+│               └── jobaggregator/
+│                   ├── Main.java
+│                   ├── Job.java
+│                   ├── Scraper.java
+│                   └── JobDAO.java
+├── pom.xml
+
+

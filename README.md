@@ -45,6 +45,7 @@ mvn exec:java -Dexec.mainClass="com.jobaggregator.Main"
 
 ### Project Structure
 
+```
 job-finder/
 ├── src/
 │   └── main/
@@ -53,8 +54,7 @@ job-finder/
 │               └── jobaggregator/
 │                   ├── Main.java
 │                   ├── Job.java
-│                   ├── Scraper.java
-│                   └── JobDAO.java
-├── pom.xml
-
-
+│                   └── Scraper.java
+├── JobDAO.java
+└── pom.xml
+```
